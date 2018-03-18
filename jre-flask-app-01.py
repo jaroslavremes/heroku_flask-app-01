@@ -8,7 +8,7 @@ def index():
         print(input_json)
         return jsonify({"input_json": input_json}), 201
     else:
-        return jsonify({"application": "JRE Flask App 01"})
+        return 'JRE Flask App 01'
 
 if __name__ == '__main__':
     app.run(debug=True)
