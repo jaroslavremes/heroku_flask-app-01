@@ -1,1 +1,1 @@
-web: gunicorn app: jre-flask-app-01
+web: gunicorn app: flask_app_01
